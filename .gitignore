@@ -25,3 +25,6 @@ build/
 # macOS
 .DS_Store
 PLAN.md
+
+# graphify knowledge graph
+graphify-out/
