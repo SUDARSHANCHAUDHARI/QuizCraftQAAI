@@ -1,13 +1,21 @@
+import os
+
 import pytest
 from fastapi.testclient import TestClient
+
+os.environ.setdefault("API_TOKEN", "test-token")
 from app.main import app
 
-client = TestClient(app)
+client = TestClient(app, headers={"X-API-Token": os.environ["API_TOKEN"]})
 
 def test_health_check():
     response = client.get("/")
     assert response.status_code == 200
     assert response.json()["status"] == "ok"
+
+def test_generate_requires_token():
+    response = TestClient(app).post("/generate", json={"text": "x"})
+    assert response.status_code == 401
 
 def test_generate_questions():
     payload = {
