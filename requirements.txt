@@ -4,4 +4,5 @@ google-generativeai
 python-dotenv
 pydantic
 pytest
+httpx==0.28.1
 sniffio
