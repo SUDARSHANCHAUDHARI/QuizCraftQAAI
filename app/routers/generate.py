@@ -4,6 +4,8 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from app.services.gemini import generate_questions
 
+router = APIRouter()
+
 
 logger = logging.getLogger("quizcraftqa-ai.generate")
 
