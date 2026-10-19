@@ -3,7 +3,7 @@
 [![CI](https://github.com/SUDARSHANCHAUDHARI/QuizCraftQA-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/SUDARSHANCHAUDHARI/QuizCraftQA-AI/actions/workflows/ci.yml)
 [![Deploy](https://github.com/SUDARSHANCHAUDHARI/QuizCraftQA-AI/actions/workflows/deploy.yml/badge.svg)](https://github.com/SUDARSHANCHAUDHARI/QuizCraftQA-AI/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://sudarshanchaudhari.github.io/QuizCraftQA-AI/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://sudarshanchaudhari.github.io/QuizCraftQAAI/)
 
 AI-powered ISTQB question and study plan generator. Paste syllabus text, enter your Gemini API key, and generate exam-ready questions or a week-by-week study plan — all in the browser, no backend needed.
 
